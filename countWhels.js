@@ -3,5 +3,4 @@ const countWheels = (nb_monocycle, nb_moto, nb_voiture, nb_limousine) => {
 
 }
 
-
 console.log(countWheels(10, 20, 5, 6))
