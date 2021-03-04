@@ -1,0 +1,7 @@
+const countWheels = (nb_monocycle, nb_moto, nb_voiture, nb_limousine) => {
+       return 1 * nb_monocycle + 2 * nb_moto + 4 * nb_voiture + 6 * nb_limousine;
+
+}
+
+
+console.log(countWheels(10, 20, 5, 6))
