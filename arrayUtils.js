@@ -4,8 +4,8 @@
 
 // console.log(biggest([1, 2, 3, 4]));
 
-const sortAscend = (tab) => {
-  tab.sort()
+const sortAscend = (liste) => {
+  return liste.sort((a, b) => a - b);
 }
 
 console.log(sortAscend([2, 4, 1, 7]))
